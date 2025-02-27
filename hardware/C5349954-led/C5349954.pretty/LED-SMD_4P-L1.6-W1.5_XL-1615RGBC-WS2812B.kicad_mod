@@ -1,0 +1,111 @@
+(footprint "LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.45 0)
+		(layer "F.SilkS")
+		(uuid "79f51b9c-ad94-46b6-9e0d-131fdfcd81d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B"
+		(at 0 4.45 0)
+		(layer "F.Fab")
+		(uuid "ce6e4c84-de4b-408c-a70d-c54acc57a824")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4470fb8-1fea-4db8-9083-de44d936a374")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e7663b5-a869-4472-8c79-c98630b190ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.8 -0.75)
+		(end -0.77 -0.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "345d604f-a1d8-4e81-979c-1cba02a308c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "15fa3bbe-5732-432b-90f5-c370e60a5502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 -0.45 180)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3616852-1442-46b1-8758-d9aef2c7e407")
+	)
+	(pad "2" smd rect
+		(at 0.75 -0.45 180)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c122ab1e-70ee-4e38-8a5a-6a9f2e2e8ba6")
+	)
+	(pad "3" smd rect
+		(at -0.75 0.45 180)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45dfe4fe-938d-4a06-83ba-bf30c89694f6")
+	)
+	(pad "4" smd rect
+		(at 0.75 0.45 180)
+		(size 0.8 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4745a3fe-8fe7-4148-902c-bdde61f87e49")
+	)
+	(embedded_fonts no)
+	(model "/C5349954.3dshapes/LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

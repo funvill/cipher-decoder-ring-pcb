@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "C5349954-led")(type "KiCad")(uri "${KIPRJMOD}/C5349954-led/C5349954.kicad_sym")(options "")(descr ""))
+  (lib (name "C470742-RotaryEncoders")(type "KiCad")(uri "${KIPRJMOD}/C470742-RotaryEncoders/C470742.kicad_sym")(options "")(descr ""))
+)
