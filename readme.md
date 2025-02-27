@@ -1,4 +1,4 @@
-# Ciphe Decoder Ring PCB
+# Cipher Decoder Ring PCB
 
 Created by: Steven Smethurst (@funvill)
 
