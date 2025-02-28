@@ -276,6 +276,237 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Seeed Studio XIAO:XIAO-RP2040-DIP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1518,6 +1749,12 @@
 		(uuid "008cf94b-d317-4de1-96eb-c1882f6aeee7")
 	)
 	(junction
+		(at 82.55 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "031ffbeb-5a37-446e-9e30-c2b903df39d4")
+	)
+	(junction
 		(at 90.17 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1614,6 +1851,12 @@
 		(uuid "4130e8e4-5996-468a-bf30-72fc1993a40d")
 	)
 	(junction
+		(at 30.48 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6fb485-c378-405f-b789-6654837af1de")
+	)
+	(junction
 		(at 185.42 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1624,6 +1867,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d04f89c-2d19-48b4-a93b-98e494f85917")
+	)
+	(junction
+		(at 25.4 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5db7e7ae-37e6-473d-b3c5-c38fef867b98")
 	)
 	(junction
 		(at 161.29 69.85)
@@ -1666,6 +1915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e1b9521-8d0b-47eb-89c3-d27b5a98c328")
+	)
+	(junction
+		(at 95.25 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72299ddd-cb15-4c05-b545-f9a45d4ddcef")
 	)
 	(junction
 		(at 109.22 33.02)
@@ -2199,6 +2454,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 125.73) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e098ad1-b541-414f-bbfe-18d3fdbef186")
+	)
+	(wire
+		(pts
 			(xy 147.32 82.55) (xy 166.37 82.55)
 		)
 		(stroke
@@ -2316,6 +2581,16 @@
 			(type default)
 		)
 		(uuid "2b99ca60-6b14-4f4c-8e91-6e19e222a248")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c40b033-0a84-43c4-bb33-0ce4d9219730")
 	)
 	(wire
 		(pts
@@ -2549,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 82.55) (xy 25.4 82.55)
+			(xy 13.97 82.55) (xy 25.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 106.68) (xy 25.4 99.06)
+			(xy 25.4 106.68) (xy 25.4 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 110.49) (xy 17.78 82.55)
+			(xy 13.97 110.49) (xy 13.97 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3236,6 +3511,16 @@
 			(type default)
 		)
 		(uuid "8e67ef18-1279-4033-bfd5-87e38eb414bc")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb2d250-4653-47d5-ba04-82cd800a007c")
 	)
 	(wire
 		(pts
@@ -3649,6 +3934,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 125.73) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c176fc3d-5ac7-4bd1-afc4-e5a0fc4c7a3c")
+	)
+	(wire
+		(pts
 			(xy 242.57 82.55) (xy 261.62 82.55)
 		)
 		(stroke
@@ -3759,7 +4054,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 110.49) (xy 43.18 110.49)
+			(xy 13.97 110.49) (xy 43.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3959,16 +4254,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 125.73) (xy 78.74 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1ad3579-7b6e-4ebc-b549-aca3b526a07b")
-	)
-	(wire
-		(pts
 			(xy 237.49 45.72) (xy 256.54 45.72)
 		)
 		(stroke
@@ -4036,6 +4321,16 @@
 			(type default)
 		)
 		(uuid "e852491f-4967-4fb8-8b95-e19f5e6bcb40")
+	)
+	(wire
+		(pts
+			(xy 25.4 99.06) (xy 25.4 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eedf2f78-e14c-4b0a-8ab4-f12ed56bab17")
 	)
 	(wire
 		(pts
@@ -4199,7 +4494,7 @@
 	)
 	(global_label "LED_IN"
 		(shape input)
-		(at 82.55 125.73 0)
+		(at 97.79 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4209,7 +4504,7 @@
 		)
 		(uuid "18284b40-605c-432d-84bd-2f2f3ef41d63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 125.73 0)
+			(at 107.1252 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,6 +5876,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40e41070-3679-454f-aa3a-07f82b0b483b")
+		(property "Reference" "TP2"
+			(at 96.266 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.266 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6269357-0d02-4595-8218-41d7d2892ef6")
+		)
+		(instances
+			(project "ciphe-decoder-ring"
+				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XL-1615RGBC-WS2812B:XL-1615RGBC-WS2812B")
 		(at 251.46 52.07 180)
 		(unit 1)
@@ -5791,6 +6152,72 @@
 			(project "ciphe-decoder-ring"
 				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 17.78 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c6ae8c8-309d-4e57-8e18-d4071ef70cb2")
+		(property "Reference" "#PWR014"
+			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 17.78 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 17.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b000ef8-2454-4c3d-855f-bbfbf418d157")
+		)
+		(instances
+			(project "ciphe-decoder-ring"
+				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6239,6 +6666,158 @@
 			(project "ciphe-decoder-ring"
 				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
 					(reference "ROW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62c51bf3-c54e-4ded-8fe0-0eec51d373e2")
+		(property "Reference" "R3"
+			(at 21.59 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 21.59 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 21.59 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+			(at 21.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 21.59 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d0027e8-2c78-457c-8abc-d2b9f9d21ad6")
+		)
+		(pin "1"
+			(uuid "743a5803-51d1-4f8b-800c-c92b63579e89")
+		)
+		(instances
+			(project "ciphe-decoder-ring"
+				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 34.29 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7172d384-fd92-4050-a121-592d69447b91")
+		(property "Reference" "R2"
+			(at 34.29 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 34.29 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 34.29 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
+			(at 34.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 34.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
+			(at 34.29 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63eb07ef-18ef-4cfe-be8c-b9bc71260ad8")
+		)
+		(pin "1"
+			(uuid "c208c179-d09b-46a5-b5dd-204b7cb9ea8f")
+		)
+		(instances
+			(project "ciphe-decoder-ring"
+				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7076,6 +7655,72 @@
 			(project "ciphe-decoder-ring"
 				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
 					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3ef23dc-932a-4822-9f24-e7283b7ef08e")
+		(property "Reference" "TP1"
+			(at 83.566 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.566 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d11940b3-c13d-4290-9eb7-5cf98c20f2b8")
+		)
+		(instances
+			(project ""
+				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8170,6 +8815,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 38.1 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db017897-2545-4c17-a66e-ba81a525aeb4")
+		(property "Reference" "#PWR013"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 38.1 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e093f949-182c-42f9-984c-17c0dedbbb04")
+		)
+		(instances
+			(project "ciphe-decoder-ring"
+				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "__sws_jlpcb:jlcpcb-1uF,25V,X5R")
 		(at 64.77 26.67 270)
 		(unit 1)
@@ -8640,6 +9350,82 @@
 			(project "ciphe-decoder-ring"
 				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc96bfaf-750a-4450-8bd0-bb9bcbdfce0c")
+		(property "Reference" "R1"
+			(at 87.63 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 87.63 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25860-0402WGF4700TCE/C25117"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25117"
+			(at 87.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10055238-10ea-4823-acd9-a6438b5b3fa4")
+		)
+		(pin "1"
+			(uuid "a51f4975-8758-4068-ae6c-a561d846606f")
+		)
+		(instances
+			(project ""
+				(path "/95c48543-05d8-4d7b-abf8-cd53f2ecb77b"
+					(reference "R1")
 					(unit 1)
 				)
 			)
