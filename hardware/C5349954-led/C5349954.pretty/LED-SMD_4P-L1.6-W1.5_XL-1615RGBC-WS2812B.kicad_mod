@@ -97,7 +97,7 @@
 		(uuid "4745a3fe-8fe7-4148-902c-bdde61f87e49")
 	)
 	(embedded_fonts no)
-	(model "/C5349954.3dshapes/LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B.wrl"
+	(model "${KIPRJMOD}/C5349954-led/C5349954.3dshapes/LED-SMD_4P-L1.6-W1.5_XL-1615RGBC-WS2812B.step"
 		(offset
 			(xyz 0 -0 -0)
 		)

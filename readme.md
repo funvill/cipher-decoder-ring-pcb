@@ -8,7 +8,7 @@ Created by: [Steven Smethurst](https://blog.abluestar.com/about) (@funvill)
 
 - **Stateless Encryption** – No stored keys, ensuring security.
 - **User-Defined Seed & Nonce** – Entered via the rotary encoder for ChaCha20 encryption.
-- **Multiple Encryption Modes** – Select from ChaCha20, AES-GCM, and more.
+- **Multiple Encryption Modes** – Select from ChaCha20, AES-GCM, ROT13, and more.
 - **USB-C Interface** – Power and data transfer in a single connection.
 
 ## Technical Specifications

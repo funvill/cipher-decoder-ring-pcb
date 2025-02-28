@@ -410,4 +410,15 @@
 		(uuid "7adfba87-f861-42a5-bb73-c3f9fac53180")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Seeed Studio XIAO/Seeed Studio XIAO RP2040 v26.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
