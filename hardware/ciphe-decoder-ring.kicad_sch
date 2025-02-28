@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "95c48543-05d8-4d7b-abf8-cd53f2ecb77b")
 	(paper "A4")
+	(title_block
+		(title "Cipher Decoder Ring PCB")
+		(date "2025-02-27")
+		(rev "2024-Feb-27")
+		(company "Steven Smethurst (@Funvill)")
+		(comment 1 "https://github.com/funvill/cipher-decoder-ring-pcb")
+	)
 	(lib_symbols
 		(symbol "C470742-RotaryEncoders:EC11E09244BS"
 			(exclude_from_sim no)
